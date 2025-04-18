@@ -1,0 +1,7 @@
+kivy==2.3.1  # Updated version that supports Python 3.13
+mysql-connector-python==8.1.0
+python-dotenv==1.0.0
+pytest==8.3.5  # Updated version
+pytest-cov==4.1.0
+sphinx==7.2.6
+sphinx-rtd-theme==1.3.0
