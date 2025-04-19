@@ -19,7 +19,7 @@ A simple task management application with Kivy UI and MySQL backend.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/tasklist-app.git
+   git clone https://github.com/Sam-Gaudet/DatabasesAss4.git
    cd tasklist-app
    ```
 

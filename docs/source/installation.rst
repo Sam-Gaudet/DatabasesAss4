@@ -15,7 +15,7 @@ Setup Steps
 
    .. code-block:: bash
 
-      git clone https://github.com/yourusername/tasklist-app.git
+      git clone https://github.com/Sam-Gaudet/DatabasesAss4.git
       cd tasklist-app
 
 2. Create a virtual environment:
