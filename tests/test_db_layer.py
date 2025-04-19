@@ -38,4 +38,4 @@ def test_delete_task(test_db):
     
     test_db.cursor.execute("SELECT * FROM tasks WHERE id = %s", (task_id,))
     task = test_db.cursor.fetchone()
-    assert task is None
+    assert task is None, "Task should be deleted from database"

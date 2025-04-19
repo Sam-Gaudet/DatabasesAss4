@@ -128,3 +128,26 @@ python -m sphinx.cmd.build -b html source build
 ### Viewing Documentation
 
 Open `docs/build/html/index.html` in your browser to view the generated documentation.
+
+## Development Notes
+
+### Challenges and Solutions
+
+**Database Connection Management**  
+- *Challenge*: Tests interfering through shared database state  
+- *Solution*: Created `clean_db` fixture to reset tables before each test  
+
+**Documentation Generation**  
+- *Challenge*: Sphinx failing on Kivy imports  
+- *Solution*: Implemented `BUILDING_DOCS` environment flag  
+
+**Test Coverage**  
+- *Challenge*: Missing edge case validation  
+- *Solution*: Added parameterized tests for:  
+  - Empty strings (`""`)  
+  - Long inputs (300+ chars)  
+  - Special characters (`@#$%`)  
+
+**Environment Configuration**  
+- *Challenge*: Hardcoded test credentials  
+- *Solution*: Added .env file to .gitignore
